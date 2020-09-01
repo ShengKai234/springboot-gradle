@@ -1,9 +1,11 @@
-<html xmlns:th="http://www.thymeleaf.org">
-	<head>
-		<title>Welcome Index2</title>
-	</head>
+<!DOCTYPE html>
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script type="text/javascript" th:src="@{/js/index2.js}"></script>
 
-	<body>
+	<body ng-app="myApp" ng-controller="Ctrl">
 		<h2>Hello world due, This is Index2~</h2>
+		{{ variable }}
+		<button ng-click="">{{ variable }}</button>
 	</body>
 </html>

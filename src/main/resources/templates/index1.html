@@ -1,9 +1,13 @@
-<html xmlns:th="http://www.thymeleaf.org">
-	<head>
-		<title>Welcome Index1</title>
-	</head>
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script type="text/javascript" th:src="@{/js/index1.js}"></script>
 
-	<body>
-		<h2>Hello world due, This is Index1~</h2>
-	</body>
+
+<body ng-app="myApp" ng-controller="Ctrl">
+    <div >
+        <p>{{variable}}</p>
+    </div>    
+</body>
+
 </html>
