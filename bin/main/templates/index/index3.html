@@ -2,8 +2,105 @@
 	<head>
 		<title>Welcome Index3</title>
 	</head>
-
-	<body>
+	
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script type="text/javascript" th:src="@{/js/index3.js}"></script>
+	
+	<body  ng-app="myApp" ng-controller="Ctrl">
 		<h2>Hello world due, This is Index3~</h2>
+		
+		<div class="container">
+		  	<h2>簡單的卡片練習</h2>
+		 	<div class="card">
+		   		<div class="card-body">简单的卡片</div>
+		 	</div>
+		 	<br>
+		  	<div class="card">
+			  <div class="card-header">
+			    Featured
+			  </div>
+			  <div class="card-body">
+			    <h5 class="card-title">Special title treatment</h5>
+			    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			    <a href="#" class="btn btn-primary">Go somewhere</a>
+			  </div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+						<div class="card-header">Header</div>
+						<div class="card-body">
+							<h5 class="card-title">Primary card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+						<div class="card-header">Header</div>
+					  	<div class="card-body">
+					    	<h5 class="card-title">Secondary card title</h5>
+					    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+					  	<div class="card-header">Header</div>
+					  	<div class="card-body">
+					    	<h5 class="card-title">Success card title</h5>
+					    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+					  	<div class="card-header">Header</div>
+					  	<div class="card-body">
+					    	<h5 class="card-title">Danger card title</h5>
+					    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
+					  	<div class="card-header">Header</div>
+					  	<div class="card-body">
+					    	<h5 class="card-title">Warning card title</h5>
+					    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+					  	<div class="card-header">Header</div>
+					  	<div class="card-body">
+					    	<h5 class="card-title">Info card title</h5>
+					    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card bg-light mb-3" style="max-width: 20rem;">
+					  	<div class="card-header">Header</div>
+					  	<div class="card-body">
+					    	<h5 class="card-title">Light card title</h5>
+					    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+					  	<div class="card-header">Header</div>
+					  	<div class="card-body">
+					    	<h5 class="card-title">Dark card title</h5>
+					    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
