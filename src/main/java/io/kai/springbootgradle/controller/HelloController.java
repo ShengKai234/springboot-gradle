@@ -15,6 +15,13 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/")
 public class HelloController {
 	
+	/**
+	 * index1 轉址
+	 * 
+	 * @param model
+	 *            Model
+	 * @return model 轉址
+	 */
 	@RequestMapping("/index1")
     public ModelAndView hello() {
 		System.err.println("hello");
@@ -23,12 +30,26 @@ public class HelloController {
         return model;
     }
 	
+	/**
+	 * index2 轉址
+	 * 
+	 * @param model
+	 *            Model	
+	 * @return 轉址
+	 */
 	 @RequestMapping("/index2")
      String home() {
 		 System.err.println("index2");
        return "index/index2";
      }
 	 
+	 /**
+	 * index3 轉址
+	 * 
+	 * @param model
+	 *            Model	
+	 * @return 轉址
+	 */
 	 @GetMapping("/index3")
      String index() {
 		 System.err.println("index3");
